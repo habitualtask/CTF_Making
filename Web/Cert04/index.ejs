@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1">
+        <title>Cert04</title>
+        <style>
+            table {
+                margin: auto;
+                text-align:center;
+              width: 70%;
+              border: 1px solid #444444;
+              border-collapse: collapse;
+            }
+            th, td {
+              border: 1px solid #444444;
+              padding: 10px;
+            }
+            h3{
+                font-size:45px;
+                font-family: "맑은 고딕";
+                text-align: center;
+                border:#000000;
+            }
+          </style>
+</head>
+<body>
+    <h3>Cert04 게시판</h3>
+    <table class="table">
+        <tread>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>조회수</th>
+            </tr>
+        </tread>
+        <tbody>
+            <tr onclick="location.href='/Key'">
+                <td>1</td>
+                <td>비밀글</td>
+                <td>user1</td>
+                <td>2020-03-27</td>
+                <td>1</td>
+            </tr>
+            <tr onclick="location.href='/notice'">
+                <td>2</td>
+                <td>공지사항</td>
+                <td>admin</td>
+                <td>2020-03-26</td>
+                <td>157</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--2020-03-29-->
+    <!--admin/1234-->
+</body>
+</html>
