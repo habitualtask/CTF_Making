@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+        <ImageView
+            android:id="@+id/Music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/music"
+            android:padding="-50dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-100dp" />
+        <ImageView
+            android:id="@+id/korea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/korea" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/PianoKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/piano" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/DRe"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:text="레"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/Do"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:layout_weight="3"
+            android:text="도" />
+        <Button
+            android:id="@+id/Re"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:text="레" />
+        <Button
+            android:id="@+id/Mi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:text="미" />
+        <Button
+            android:id="@+id/Fa"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:text="파" />
+        <Button
+            android:id="@+id/Sol"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:text="솔" />
+        <Button
+            android:id="@+id/La"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:layout_weight="3"
+            android:text="라" />
+        <Button
+            android:id="@+id/Si"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:text="시" />
+        <Button
+            android:id="@+id/HDo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:layout_weight="3"
+            android:text="도" />
+        <Button
+            android:id="@+id/HRe"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#666666"
+            android:textColor="#ffffff"
+            android:layout_weight="3"
+            android:text="레" />
+    </LinearLayout>
+</LinearLayout>
